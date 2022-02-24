@@ -20,7 +20,8 @@
 }
 
 header .btn,
-.jumbotron .btn{
+.jumbotron .btn,
+.console-ps5 .btn{
     border-radius: 1.25rem;
 }
 
@@ -55,15 +56,44 @@ border-radius: 10px;
 
 /* / list-game*/
 
-/* no-limits */
+/* no-limits + console ps5 */
 
-.no-limits p{
+.no-limits p,
+.console-ps5 p,
+.console-ps5 span{
     color: #727272;
     font-size: 1.2rem;
 }
 
-.no-limits h2{
+.no-limits h2,
+.console-ps5 h2{
     font-size: 2.5rem;
 }
 
-/* / no-limits*/
+
+.console-ps5 img{
+    width: 100%;
+}
+
+.description{
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+.console-ps5 .ar-ps5{
+    display:flex;
+    align-items: center;
+}
+    .console-ps5 .accessory{
+        justify-content: space-around;
+}
+
+.description{
+    
+    display: flex;
+    text-align: center;
+}
+
+    
+}
+/* / no-limits + console ps5 */
