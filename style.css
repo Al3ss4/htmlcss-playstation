@@ -148,6 +148,7 @@ border-radius: 10px;
 
 .ps-plus{
     background-color: #bebcbb;
+    width: 100vw;
 }
 
 /* ps-plus */
@@ -156,6 +157,7 @@ border-radius: 10px;
 
 .ps-now{
     background-color: #161c3b;
+    width: 100vw;
 }
 
 .ps-now p{
