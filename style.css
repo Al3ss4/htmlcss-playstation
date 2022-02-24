@@ -150,6 +150,15 @@ border-radius: 10px;
     background-color: #bebcbb;
 }
 
-
-
 /* ps-plus */
+
+/* ps-now */
+
+.ps-now{
+    background-color: #161c3b;
+}
+
+.ps-now p{
+    color: white;
+}
+/* ps-now */
