@@ -12,6 +12,10 @@
 .w-60{
     width: 60%;
 }
+
+.w-50{
+    width: 55%;
+}
 /* / utility */
 
 /* header */
@@ -97,3 +101,12 @@ border-radius: 10px;
     
 }
 /* / no-limits + console ps5 */
+
+/* takes two */
+
+.takes-two{
+    background-image: url("img/it-takes-two-hero-banner-desktop.jpg") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
