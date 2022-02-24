@@ -64,7 +64,8 @@ border-radius: 10px;
 
 .no-limits p,
 .console-ps5 p,
-.console-ps5 span{
+.console-ps5 span,
+.explore p{
     color: #727272;
     font-size: 1.2rem;
 }
@@ -132,3 +133,12 @@ border-radius: 10px;
 }
 
 /* / new-games */
+
+/* explore play4 */
+
+.card{
+    border: none;
+}
+
+
+/* / explore play4 */
