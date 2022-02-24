@@ -110,3 +110,25 @@ border-radius: 10px;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+/* / takes two */
+
+/* new-games */
+
+.new-game{
+    background-color: #1f1f1f;
+}
+
+.new-game img{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.new-game a,
+.new-game h2,
+.new-game h3{
+    color: white;
+    
+}
+
+/* / new-games */
