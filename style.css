@@ -8,3 +8,15 @@
 .ar-text-w{
     color: white;
 }
+
+ header .navbar-light .navbar-nav .nav-link {
+    color: black
+}
+
+header .btn{
+    border-radius: 1.25rem;
+}
+
+header .ar-lens{
+    width: 25px;
+}
