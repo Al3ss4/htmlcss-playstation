@@ -9,14 +9,38 @@
     color: white;
 }
 
+.w-60{
+    width: 60%;
+}
+/* / utility */
+
+/* header */
  header .navbar-light .navbar-nav .nav-link {
     color: black
 }
 
-header .btn{
+header .btn,
+.jumbotron .btn{
     border-radius: 1.25rem;
 }
 
 header .ar-lens{
     width: 25px;
 }
+
+/* / header */
+
+/* jumbotron */
+
+.jumbotron{
+    background-image: url("img/jumbo-bg.png") ;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0rem;
+    margin-bottom: 0rem;
+}
+
+
+
+/* / jumbotron */
