@@ -48,28 +48,14 @@ header .ar-lens{
     width: 25px;
 }
 
-.dropdown-menu{
-    border: none;
-    border-radius: 0rem;
-    margin-top: 18px;
-    padding:3rem;
-    
-}
-
-.dropdown-divider {
-    border-top:1px solid #727272;
-    width: 90%;
-    margin: 5%;
-}
-
-.dropdown-item{
-    white-space: pre-wrap;
-}
-
 .hover_ps
 {
     text-decoration: none;
     color: rgb(0, 0, 0);
+}
+
+.dropdown-divider{
+    border: 1px solid #9e9e9e63;
 }
 
 .hover_ps:hover
@@ -227,7 +213,6 @@ transition: all 0.3s ease;
 
 .ps-now{
     background-color: #161c3b;
-    width: 100vw;
 }
 
 .ps-now p{
