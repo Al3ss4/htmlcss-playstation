@@ -16,6 +16,15 @@
 .w-50{
     width: 55%;
 }
+
+
+.ar-mt-108{
+    margin-top: 108px;
+}
+
+.ar-mt-230{
+    margin-top: 230px!important;
+}
 /* / utility */
 
 /* header */
@@ -23,12 +32,9 @@
     color: black
 }
 
-header .btn,
-.jumbotron .btn,
-.console-ps5 .btn{
+.btn{
     border-radius: 1.25rem;
 }
-
 header .ar-lens{
     width: 25px;
 }
@@ -45,6 +51,7 @@ header .ar-lens{
     border-radius: 0rem;
     margin-bottom: 0rem;
 }
+
 
 
 
@@ -149,20 +156,6 @@ border-radius: 10px;
 .ps-plus{
     background-color: #bebcbb;
 }
-
-.ps-plus .plus-april{
-    height: 50vh;
-    
-}
-
-@media screen and (min-width:1400px) {
-    .ps-plus .plus-april{
-        height: 65vh;
-        
-    }
-    
-}
-
 
 /* ps-plus */
 
