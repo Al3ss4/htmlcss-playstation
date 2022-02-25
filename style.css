@@ -148,8 +148,21 @@ border-radius: 10px;
 
 .ps-plus{
     background-color: #bebcbb;
-    width: 100vw;
 }
+
+.ps-plus .plus-april{
+    height: 50vh;
+    
+}
+
+@media screen and (min-width:1400px) {
+    .ps-plus .plus-april{
+        height: 65vh;
+        
+    }
+    
+}
+
 
 /* ps-plus */
 
