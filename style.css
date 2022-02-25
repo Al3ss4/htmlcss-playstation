@@ -29,6 +29,12 @@
 
 /* / utility */
 
+
+
+.btn:hover
+{
+    transform: scale(1.1);
+}
 /* header */
  header .navbar-light .navbar-nav .nav-link {
     color: black
@@ -37,6 +43,7 @@
 .btn{
     border-radius: 1.25rem;
 }
+
 header .ar-lens{
     width: 25px;
 }
@@ -65,8 +72,14 @@ header .ar-lens{
 .list-game img{
 width: 100%;
 border-radius: 10px;
+transition: all 0.3s ease;
 }
 
+.list-game img:hover
+{
+    transform: translateY(-5px);
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.3);
+}
 /* / list-game*/
 
 /* no-limits + console ps5 */
@@ -91,6 +104,16 @@ border-radius: 10px;
 
 .description{
     display: none;
+}
+
+.console-ps5 .ar-op
+{
+    opacity: 0.5;
+}
+
+.console-ps5 .ar-op:hover
+{
+    opacity: 1;
 }
 
 @media screen and (min-width:768px) {
