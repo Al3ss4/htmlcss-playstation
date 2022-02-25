@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -40,63 +41,75 @@
 
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="">
                             Giochi
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><hr class="dropdown-divider"></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                          </ul>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Hardware
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Servizi
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Novità
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Fai Acquisti
-                        </a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Supporto
-                        </a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav d-flex justify-content-end">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle mx-1" href="#" id="navbarDropdown" role="button"
-                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            My PlayStation
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <button type="button" class="btn btn-dark mx-2">Accedi</button>
+                            <div class="d-flex ">
+                                <li><a class="dropdown-item hover_ps" href="#"><img src="img/play-menu-ico.png"
+                                            alt="play">PlayStation 5</a></li>
+                                <li><a class="dropdown-item hover_ps" href="#"><img src="img/play-menu-ico.png"
+                                            alt="play">PlayStation 5</a></li>
+                                <li><a class="dropdown-item hover_ps" href="#"><img src="img/play-menu-ico.png"
+                                            alt="play">PlayStation 5</a></li>
 
                     </li>
-                    <li class="nav-item">
-                        <a class="navbar-brand" href="#"><img class="ar-lens mx-2" src="img/lens.svg" alt="logo"></a>
 
-                    </li>
-                </ul>
+            </div>
+            <div class="d-flex justify-content-around mt-3">
+                <li><a class="dropdown-item hover_ps" href="#">Link novità</a></li>
+                <li><a class="dropdown-item hover_ps" href="#">Link novità</a></li>
+                <li><a class="dropdown-item hover_ps" href="#">Link novità</a></li>
+            </div>
+            </ul>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Hardware
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Servizi
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Novità
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Fai Acquisti
+                </a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Supporto
+                </a>
+            </li>
+            </ul>
+            <ul class="navbar-nav d-flex justify-content-end">
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle mx-1" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        My PlayStation
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-dark mx-2">Accedi</button>
+
+                </li>
+                <li class="nav-item">
+                    <a class="navbar-brand" href="#"><img class="ar-lens mx-2" src="img/lens.svg" alt="logo"></a>
+
+                </li>
+            </ul>
 
 
             </div>
@@ -183,23 +196,26 @@
                     </a>
                 </div>
                 <div class="col-4 col-md-2 p-2">
-                    <a href="#"><img  class="ar-op" src="img/joypad-thumb.png" alt="PAD">
+                    <a href="#"><img class="ar-op" src="img/joypad-thumb.png" alt="PAD">
                         <span class="description">
                             Controller wireless Dualsense
                         </span>
                     </a>
                 </div>
                 <div class="col-4 col-md-2 p-2">
-                    <a href="#"><img  class="ar-op" src="img/headset-thumb.png" alt="HEADSET"><span class="description">Cuffie wireless
+                    <a href="#"><img class="ar-op" src="img/headset-thumb.png" alt="HEADSET"><span
+                            class="description">Cuffie wireless
                             con
                             microfono PULSE 3</span></a>
                 </div>
                 <div class="col-4 col-md-2 p-2">
-                    <a href="#"><img  class="ar-op" src="img/remote-thumb.png" alt="REMOTE"><span class="description">Telecomando
+                    <a href="#"><img class="ar-op" src="img/remote-thumb.png" alt="REMOTE"><span
+                            class="description">Telecomando
                             Media</span></a>
                 </div>
                 <div class="col-4 col-md-2 p-2">
-                    <a href="#"><img  class="ar-op" src="img/camera-thumb.jpg" alt="CAMERA"><span class="description">Telecamera
+                    <a href="#"><img class="ar-op" src="img/camera-thumb.jpg" alt="CAMERA"><span
+                            class="description">Telecamera
                             HD</span></a>
                 </div>
             </div>
@@ -386,7 +402,7 @@
 
         <!-- playstation-now -->
         <div class="ps-now container-fluid">
-            <div class="row">
+            <div class="row align-items-center justify-content-start">
                 <div class="col-12 col-md-6 mt-5">
                     <img class="w-60 py-4" src="img/ps-now-logo-two-column.png" alt="play-now">
                     <p>Ottieni l'accesso immediato a una vastissima raccolta di oltre 800 giochi per PS4, PS3 e PS2 su
@@ -440,7 +456,7 @@
                 <div class="col-12 col-lg-6 ">
                     <img class="w-25 mt-5 mb-4" src="img/ps-footer.svg" alt="ps-logo">
                     <div>
-                        <a class="mb-5" href="#"><i class="fas fa-globe"></i>     Country / Region: Italy</a>
+                        <a class="mb-5" href="#"><i class="fas fa-globe"></i> Country / Region: Italy</a>
                     </div>
                 </div>
                 <div class="col-12 col-md-4 col-lg-2 mt-5">
@@ -505,11 +521,15 @@
                 <div class="col-12 col-lg-6">
                     <img class="w-25 mt-5" src="img/sie-logo.svg" alt="logo-sie">
 
-                    <p class="mb-5 mt-1 fw-bold">Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati. <a class="text-decoration-underline" href="#">Maggiori info</a></p>
+                    <p class="mb-5 mt-1 fw-bold">Website ©2021 Sony Interactive Entertainment Europe Limited. Tutti i
+                        contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e
+                        immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi
+                        proprietari. Tutti i diritti riservati. <a class="text-decoration-underline" href="#">Maggiori
+                            info</a></p>
                 </div>
             </div>
         </div>
-            <!-- / bot footer -->
+        <!-- / bot footer -->
 
 
 
@@ -518,6 +538,14 @@
     <!-- / footer -->
 
 
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

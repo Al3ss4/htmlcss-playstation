@@ -48,6 +48,40 @@ header .ar-lens{
     width: 25px;
 }
 
+.dropdown-menu{
+    border: none;
+    border-radius: 0rem;
+    margin-top: 18px;
+    padding:3rem;
+    
+}
+
+.dropdown-divider {
+    border-top:1px solid #727272;
+    width: 90%;
+    margin: 5%;
+}
+
+.dropdown-item{
+    white-space: pre-wrap;
+}
+
+.hover_ps
+{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.hover_ps:hover
+{
+    color: rgb(0, 0, 255);
+}
+
+.list_style:hover
+{
+    color: rgb(0, 0, 255);
+}
+
 /* / header */
 
 /* jumbotron */
@@ -180,6 +214,11 @@ transition: all 0.3s ease;
 
 .ps-plus{
     background-color: #bebcbb;
+}
+
+.ps-plus .btn{
+    background-color: #d9dadc;
+    color: #3066e6;
 }
 
 /* ps-plus */
