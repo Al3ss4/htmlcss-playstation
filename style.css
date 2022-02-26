@@ -55,6 +55,18 @@ a{
 .btn{
     border-radius: 1.25rem;
 }
+
+h2 {
+    font-size: 4rem!important;
+}
+
+p{
+    font-size: 1.5rem!important;
+}
+
+h5{
+    font-size: 2.3rem!important;
+}
 /* / utility */
 
  /* styling the button */
@@ -152,6 +164,7 @@ transition: all 0.3s ease;
 
 .description{
     display: none;
+    
 }
 
 .console-ps5 .ar-op
@@ -240,6 +253,16 @@ transition: all 0.3s ease;
     color: #3066e6;
 }
 
+.plus-april{
+    height: 40vh;
+}
+
+@media screen and (min-width:1000px) {
+
+    .plus-april{
+    height: auto;
+}
+}
 /* ps-plus */
 
 /* ps-now */
