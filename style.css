@@ -26,11 +26,40 @@
     margin-top: 230px!important;
 }
 
+a{
+    text-decoration: none;
+}
 
+.console-ps5 .btn:hover,
+.explore .btn:hover{
+    border: 1px solid white;
+    outline: 3px solid #007bff;
+}
+
+.jumbotron .btn:hover,
+.takes-two .btn:hover{
+    border: 1px solid white;
+    outline: 3px solid #dc3545;
+}
+
+.ps-plus .btn:hover{
+    border: 1px solid white;
+    outline: 3px solid #d9dadc;
+}
+
+.ar_head-btn .btn:hover{
+    border: 1px solid white;
+    outline: 3px solid #343a40;
+}
+
+.btn{
+    border-radius: 1.25rem;
+}
 /* / utility */
 
+ /* styling the button */
 
-
+ 
 .btn:hover
 {
     transform: scale(1.1);
@@ -40,9 +69,6 @@
     color: black
 }
 
-.btn{
-    border-radius: 1.25rem;
-}
 
 header .ar-lens{
     width: 25px;
@@ -83,6 +109,8 @@ header .ar-lens{
 
 
 
+
+
 /* / jumbotron */
 
 
@@ -106,7 +134,8 @@ transition: all 0.3s ease;
 .no-limits p,
 .console-ps5 p,
 .console-ps5 span,
-.explore p{
+.explore p,
+.sales p{
     color: #727272;
     font-size: 1.2rem;
 }
@@ -143,6 +172,7 @@ transition: all 0.3s ease;
 .console-ps5 .ar-ps5{
     display:flex;
     align-items: center;
+    justify-content: center;
 }
     .console-ps5 .accessory{
         justify-content: space-around;
