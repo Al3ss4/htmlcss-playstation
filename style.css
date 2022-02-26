@@ -135,6 +135,10 @@ transition: all 0.3s ease;
     opacity: 1;
 }
 
+.border-bottom {
+    border-bottom: 2px solid !important;
+}
+
 @media screen and (min-width:768px) {
 .console-ps5 .ar-ps5{
     display:flex;
